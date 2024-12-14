@@ -1,0 +1,185 @@
+/* Add Arabic font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --background: #030712;
+  --surface: #111827;
+  --border: #1f2937;
+  --text: #f9fafb;
+  --text-secondary: #9ca3af;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "salt" 1, "ss01" 1, "ss02" 1;
+  letter-spacing: -0.025em;
+}
+
+[dir="rtl"] {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Modern Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shine {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.3s ease-out;
+}
+
+.animate-shine {
+  animation: shine 2s infinite;
+}
+
+/* Modern Gradients */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-border {
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+              linear-gradient(135deg, #60a5fa 0%, #3b82f6 50%, #2563eb 100%) border-box;
+  border: 1px solid transparent;
+}
+
+/* Modern Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Card and Surface Styles */
+.glass-surface {
+  background: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.surface-elevation {
+  box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.1),
+              0 4px 16px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Form Styles */
+input, textarea, select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Editor theme overrides */
+.monaco-editor {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.monaco-editor .overflow-guard {
+  border-radius: 0.5rem;
+}
+
+/* Loading States */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Hover Effects */
+.hover-lift {
+  transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Focus Styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary;
+}
+
+/* RTL specific styles */
+[dir="rtl"] .monaco-editor {
+  text-align: left;
+}
