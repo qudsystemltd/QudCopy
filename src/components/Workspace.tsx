@@ -144,7 +144,7 @@ export default function Workspace() {
     reader.readAsDataURL(selectedFile)
   }
 
-  const generateTemplateCode = (imageName: string) => {
+  const generateTemplateCode = () => {
     return `// Generated React Component
 import React from 'react'
 import Image from 'next/image'
@@ -159,7 +159,7 @@ export default function GeneratedComponent({ className = '' }: Props) {
       <div className="md:flex">
         <div className="md:shrink-0">
           <Image
-            src="${imageName}"
+            src="${file?.name || ''}"
             alt="Generated Design"
             width={384}
             height={512}
@@ -187,7 +187,7 @@ export default function GeneratedComponent({ className = '' }: Props) {
   )`
   }
 
-  const generatePrompt = (imageName: string) => {
+  const generatePrompt = () => {
     return `Design Description and Implementation Guide
 
 Key Visual Elements:
@@ -250,10 +250,10 @@ This design emphasizes:
     
     try {
       // Simulated API call with delay
-      await new Promise(resolve => setTimeout(resolve, 1500))
+      await new Promise((resolve) => setTimeout(resolve, 1500));
       const generated = generationType === 'code' 
-        ? generateTemplateCode(file.name)
-        : generatePrompt(file.name)
+        ? generateTemplateCode()
+        : generatePrompt()
       setResult(generated)
       setStatus('success')
     } catch (error) {
@@ -295,7 +295,7 @@ This design emphasizes:
     if (file && status === 'success') {
       setStatus('loading')
       setTimeout(() => {
-        setResult(type === 'code' ? generateTemplateCode(file.name) : generatePrompt(file.name))
+        setResult(type === 'code' ? generateTemplateCode() : generatePrompt())
         setStatus('success')
       }, 800)
     }
