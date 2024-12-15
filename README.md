@@ -59,8 +59,18 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link).
 
-<img src="https://i.ibb.co/z2rY9J9/image.jpg" alt="Description" width="600"/>
-<img src="https://i.ibb.co/hghCCd6/image.jpg" alt="Description" width="600"/>
+<img src="https://www.imghippo.com/i/xxyC3491PGk.jpeg" alt="AI-Powered Code Generation" width="600"/>
+*AI-Powered Code Generation*
 
- 
+<img src="https://www.imghippo.com/i/mwk6398nuk.jpeg" alt="Efficiency" width="600"/>
+*Efficiency*
+
+<img src="https://www.imghippo.com/i/LbA7365PUc.jpeg" alt="User-Friendly Interface" width="600"/>
+*User-Friendly Interface*
+
+<img src="https://www.imghippo.com/i/PhE5217cxc.jpeg" alt="Getting Started" width="600"/>
+*Getting Started*
+
+<img src="https://www.imghippo.com/i/jmjL9286w.jpeg" alt="Environment Variables" width="600"/>
+*Environment Variables*
  
