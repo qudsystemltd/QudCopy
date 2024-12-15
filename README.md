@@ -1,7 +1,4 @@
-لإضافة الصورة الثانية إلى ملف README الخاص بك، يمكنك استخدام الرابط المباشر للصورة. إليك كيف سيبدو ملف README.md الخاص بك مع الصورتين المضافتين:
-
----
-
+ 
 # QudCopy 🚀
 
 Welcome to QudCopy! Transform your development workflow with AI-powered code generation. Upload designs, get production-ready code instantly, and cut development time by 50%.
@@ -62,12 +59,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link).
 
-![Description](https://i.ibb.co/z2rY9J9/image.jpg)
-![Description](https://i.ibb.co/hghCCd6/image.jpg)
-![Description](https://ibb.co/KbyG3qG/image.jpg)
+<img src="https://i.ibb.co/z2rY9J9/image.jpg" alt="Description" width="600"/>
+<img src="https://i.ibb.co/hghCCd6/image.jpg" alt="Description" width="600"/>
 
-
-
----
-
-بهذه الطريقة، ستتمكن من إضافة الصورتين إلى ملف README الخاص بك باستخدام الروابط المباشرة. إذا كنت بحاجة إلى مزيد من المساعدة، فأخبرني!
+ 
+ 
