@@ -1,4 +1,4 @@
-Here's your README with some added emojis for a touch of flair:
+لإضافة الصورة الثانية إلى ملف README الخاص بك، يمكنك استخدام الرابط المباشر للصورة. إليك كيف سيبدو ملف README.md الخاص بك مع الصورتين المضافتين:
 
 ---
 
@@ -62,6 +62,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link).
 
+![Description](https://i.ibb.co/z2rY9J9/image.jpg)
+![Description](https://i.ibb.co/hghCCd6/image.jpg)
+![Description](https://ibb.co/KbyG3qG/image.jpg)
+
+
+
 ---
 
-Feel free to customize this README to better fit your project's needs!
+بهذه الطريقة، ستتمكن من إضافة الصورتين إلى ملف README الخاص بك باستخدام الروابط المباشرة. إذا كنت بحاجة إلى مزيد من المساعدة، فأخبرني!
