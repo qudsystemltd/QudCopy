@@ -1,12 +1,12 @@
  # QudCopy 🚀
 
 Welcome to QudCopy! Transform your development workflow with AI-powered code generation. Upload designs, get production-ready code instantly, and cut development time by 50%.
+  ![Environment Variables](https://i.imghippo.com/files/jmjL9286w.jpeg)
 
 ## Features ✨
 
 - **AI-Powered Code Generation**: Upload your designs and get production-ready code in minutes.
 
-  ![AI-Powered Code Generation](https://i.imghippo.com/files/xxyC3491PGk.jpeg)
 
 - **Efficiency**: Reduce development time by half.
 
@@ -56,7 +56,8 @@ NEXT_PUBLIC_CLOUDINARY_API_KEY=YOUR_API_KEY
 CLOUDINARY_API_SECRET=YOUR_API_SECRET
 ```
 
-  ![Environment Variables](https://i.imghippo.com/files/jmjL9286w.jpeg)
+  ![AI-Powered Code Generation](https://i.imghippo.com/files/xxyC3491PGk.jpeg)
+
 
 ## Contributing 🤝
 
