@@ -1,4 +1,7 @@
- 
+إليك ملف README.md مع الصور المضافة بشكل احترافي باستخدام أفضل الممارسات:
+
+---
+
 # QudCopy 🚀
 
 Welcome to QudCopy! Transform your development workflow with AI-powered code generation. Upload designs, get production-ready code instantly, and cut development time by 50%.
@@ -6,13 +9,13 @@ Welcome to QudCopy! Transform your development workflow with AI-powered code gen
 ## Features ✨
 
 - **AI-Powered Code Generation**: Upload your designs and get production-ready code in minutes.
-  <img src="https://i.imghippo.com/files/xxyC3491PGk.jpeg" alt="AI-Powered Code Generation" width="600"/>
+  <img src="https://i.imghippo.com/files/xxyC3491PGk.jpeg" alt="AI-Powered Code Generation" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
 
 - **Efficiency**: Reduce development time by half.
-  <img src="https://i.imghippo.com/files/mwk6398nuk.jpeg" alt="Efficiency" width="600"/>
+  <img src="https://i.imghippo.com/files/mwk6398nuk.jpeg" alt="Efficiency" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
 
 - **User-Friendly**: Easy to use interface for seamless integration into your workflow.
-  <img src="https://i.imghippo.com/files/LbA7365PUc.jpeg" alt="User-Friendly Interface" width="600"/>
+  <img src="https://i.imghippo.com/files/LbA7365PUc.jpeg" alt="User-Friendly Interface" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
 
 ## Getting Started 🛠️
 
@@ -34,7 +37,7 @@ To get started with QudCopy, follow these steps:
    npm run dev
    ```
 
-  <img src="https://i.imghippo.com/files/PhE5217cxc.jpeg" alt="Getting Started" width="600"/>
+  <img src="https://i.imghippo.com/files/PhE5217cxc.jpeg" alt="Getting Started" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
 
 ## Environment Variables 🔑
 
@@ -54,7 +57,7 @@ NEXT_PUBLIC_CLOUDINARY_API_KEY=YOUR_API_KEY
 CLOUDINARY_API_SECRET=YOUR_API_SECRET
 ```
 
-  <img src="https://i.imghippo.com/files/jmjL9286w.jpeg" alt="Environment Variables" width="600"/>
+  <img src="https://i.imghippo.com/files/jmjL9286w.jpeg" alt="Environment Variables" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
 
 ## Contributing 🤝
 
@@ -66,4 +69,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact 📧
 
-For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link). 
+For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link).
+
+---
+
+بهذه الطريقة، ستظهر الصور بحجم استعراضي في ملف README الخاص بك مع وصف لكل صورة. إذا كنت بحاجة إلى مزيد من المساعدة، فأخبرني!
