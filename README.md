@@ -1,4 +1,4 @@
-إليك ملف README.md مع الصور المضافة بشكل احترافي باستخدام أفضل الممارسات:
+إليك ملف README.md مع الصور المضافة بشكل احترافي باستخدام أفضل الممارسات التي يستخدمها المبرمجون:
 
 ---
 
@@ -9,13 +9,16 @@ Welcome to QudCopy! Transform your development workflow with AI-powered code gen
 ## Features ✨
 
 - **AI-Powered Code Generation**: Upload your designs and get production-ready code in minutes.
-  <img src="https://i.imghippo.com/files/xxyC3491PGk.jpeg" alt="AI-Powered Code Generation" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+
+  ![AI-Powered Code Generation](https://i.imghippo.com/files/xxyC3491PGk.jpeg)
 
 - **Efficiency**: Reduce development time by half.
-  <img src="https://i.imghippo.com/files/mwk6398nuk.jpeg" alt="Efficiency" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+
+  ![Efficiency](https://i.imghippo.com/files/mwk6398nuk.jpeg)
 
 - **User-Friendly**: Easy to use interface for seamless integration into your workflow.
-  <img src="https://i.imghippo.com/files/LbA7365PUc.jpeg" alt="User-Friendly Interface" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+
+  ![User-Friendly Interface](https://i.imghippo.com/files/LbA7365PUc.jpeg)
 
 ## Getting Started 🛠️
 
@@ -37,7 +40,7 @@ To get started with QudCopy, follow these steps:
    npm run dev
    ```
 
-  <img src="https://i.imghippo.com/files/PhE5217cxc.jpeg" alt="Getting Started" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+  ![Getting Started](https://i.imghippo.com/files/PhE5217cxc.jpeg)
 
 ## Environment Variables 🔑
 
@@ -57,7 +60,7 @@ NEXT_PUBLIC_CLOUDINARY_API_KEY=YOUR_API_KEY
 CLOUDINARY_API_SECRET=YOUR_API_SECRET
 ```
 
-  <img src="https://i.imghippo.com/files/jmjL9286w.jpeg" alt="Environment Variables" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>
+  ![Environment Variables](https://i.imghippo.com/files/jmjL9286w.jpeg)
 
 ## Contributing 🤝
 
