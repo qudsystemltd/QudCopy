@@ -1,8 +1,4 @@
-إليك ملف README.md مع الصور المضافة بشكل احترافي باستخدام أفضل الممارسات التي يستخدمها المبرمجون:
-
----
-
-# QudCopy 🚀
+ # QudCopy 🚀
 
 Welcome to QudCopy! Transform your development workflow with AI-powered code generation. Upload designs, get production-ready code instantly, and cut development time by 50%.
 
@@ -72,8 +68,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact 📧
 
-For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link).
-
----
-
-بهذه الطريقة، ستظهر الصور بحجم استعراضي في ملف README الخاص بك مع وصف لكل صورة. إذا كنت بحاجة إلى مزيد من المساعدة، فأخبرني!
+For any questions or feedback, please join our [Discord community](https://discord.com/invite/your-invite-link). 
